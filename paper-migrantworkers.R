@@ -36,6 +36,7 @@ f1.plot <- f1 %>%
   )
 f1.plot
 ggsave("fig1.emf", f1.plot, height = 7, width = 9)
+ggsave("fig1.png", f1.plot, height = 7, width = 9)
 
 # Figure 2
 f2 <- read_csv("fig2.csv")
